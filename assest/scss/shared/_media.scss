@@ -1,0 +1,56 @@
+@media screen and (max-width: 768px) {
+  body {
+    height: auto;
+  }
+  .container {
+    width: 100%;
+    .product {
+      flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      &-image{
+        img{
+            width:200px;
+         }
+      }
+      .card {
+        padding-top: 25px;
+        width: 200px;
+       &-name {
+          margin-left: -80px;
+          .title {
+            width: 250px;
+            font-size: 18px;
+          }
+        }
+        &-price{
+          margin-left: -80px;
+          .price-stock{
+            font-size: 12px;
+          }
+        }
+        .btn{
+          margin-left: -80px;         
+          width: 300px;
+        }
+        .stock{
+          margin-left: -80px;
+        }
+        .card-btn{
+          margin-left: -80px;
+          width: 300px;
+         .scales{
+          font-size: 15px;
+          padding: 8px;
+          height: 50px;
+         }
+         .like{
+          font-size: 15px;
+          padding: 8px;
+          height: 50px;
+         }
+        }
+      }
+    }
+  }
+}

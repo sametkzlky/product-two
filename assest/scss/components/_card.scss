@@ -1,0 +1,80 @@
+.card {
+  width: 442px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 32px;
+  gap: 32px;
+  .card-name {
+    .btn-head {
+      background-color: #191847;
+      color: white;
+      width: 112px;
+      height: 29px;
+      border-radius: 20px;
+    }
+    .title {
+      width: 419px;
+      margin-top: 10px;
+      font-style: normal;
+      font-weight:600;
+      font-size: 24px;
+      line-height: 36px;
+      color: #191847;
+    }
+  }
+  .card-price {
+    
+    .price-before {
+      font-size: 18px;
+    }
+    .price-now {
+      font-size: 48px;
+    }
+    .price-stock {
+      font-size: 14px;
+      opacity: 0.6;
+    }
+  }
+  .btn {
+    width: 442px;
+    padding: 25px;
+    background-color: #4788e9;
+    border: 0 solid;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .stock {
+    padding-left: 20px;
+    .stock::before {
+      content: "";
+      width: 13px;
+      height: 13px;
+      background-color: #00d98b;
+    }
+  }
+  .card-btn {
+    display: flex;
+    gap: 16px;
+    .scales {
+      border: 1px solid rgba(201, 201, 218, 1);
+      border-radius: 8px;
+      padding: 16px;
+      width: 213px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 18px;
+    }
+    .like {
+      border: 1px solid rgba(201, 201, 218, 1);
+      border-radius: 8px;
+      padding: 16px;
+      width: 213px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 18px;
+    }
+  }
+}
